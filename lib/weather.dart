@@ -2,7 +2,7 @@ import 'location.dart';
 import 'networking.dart';
 import 'package:geolocator/geolocator.dart';
 
-const apiKey = '327f47634cf4452dd0e22af893b566d5';
+const apiKey = '';
 
 class WeatherModel {
   Future<dynamic> getCityWeather(String cityName) async {
